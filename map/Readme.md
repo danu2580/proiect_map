@@ -9,6 +9,10 @@ Proiectul include două versiuni:
 
 Ambele versiuni utilizează o matrice de adiacență pentru a reprezenta relațiile dintre țări și implementează o soluție de backtracking pentru colorarea corectă a hărții.
 Implementarea este efectuata cu grafuri , si se foloseste structura clasica pentru parcurgerea grafurilor cu vector de vizitate.
+Am facut proiectul in clion(ide-ul meu preferat pentru c)
+
+![Screenshot-ul aplicației](ide.jpeg)
+![Screenshot-ul matricei](matricea.jpeg)
 
 ## Structura proiectului
 - `c_tari.c`: Versiunea cu date hardcodate.
