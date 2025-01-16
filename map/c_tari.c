@@ -15,7 +15,7 @@ typedef struct {
 
 // Funcție pentru a verifica dacă o culoare poate fi atribuită
 bool canColor(int countryIndex, int colorIndex, int numCountries, int countryColors[], int adjacencyMatrix[MAX_COUNTRIES][MAX_COUNTRIES]) {
-    for (int i = 0; i < numCountries; i++) {
+   for (int i = 0; i < numCountries; i++) {
         if (adjacencyMatrix[countryIndex][i] == 1 && countryColors[i] == colorIndex) {
             return false;
         }
