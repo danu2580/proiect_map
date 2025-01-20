@@ -1,6 +1,5 @@
 .idea/
 *.o
-*.jpeg
 *.exe
 *.out
 /build/
